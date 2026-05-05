@@ -1,0 +1,156 @@
+# IT23841222 - IT3040 Assignment 1
+
+## 📌 Project Title
+
+Transliteration Accuracy Testing using Playwright Automation
+
+---
+
+## 🔗 Repository
+https://github.com/jana-samarawickrama/Transliteration-Accuracy-Testing-using-Playwright-Automation_IT3040.git
+
+---
+
+## 📂 Project Structure
+
+```
+test_automation/
+│── test_automation.py
+│── Assignment_Test_Cases.xlsx
+│── requirements.txt
+│── README.md
+│── playwright.config.js (if available)
+```
+
+---
+
+## 🛠️ Technologies Used
+
+* Python 3.11
+* Playwright (Automation Testing)
+* OpenPyXL (Excel Handling)
+* Google Chrome / Chromium Browser
+
+---
+
+## ▶️ How to Run the Project
+
+### Step 1: Install Dependencies
+
+```
+pip install playwright openpyxl
+playwright install
+```
+
+### Step 2: Navigate to Project Folder
+
+```
+cd /d D:\test_automation
+```
+
+### Step 3: Run Automation Script
+
+```
+python test_automation.py --excel "Assignment_Test_Cases.xlsx" --url "https://www.pixelssuite.com/chat-translator"
+```
+
+---
+
+## 📊 Output
+
+* Excel file will be automatically updated with:
+
+  * Actual Output
+  * Status (Pass / Fail)
+* Results are generated after each test execution
+* Most test cases are expected to FAIL (as per assignment requirement)
+
+---
+
+## 🧪 Test Case Details
+
+* Total Test Cases: 50
+* Type: Negative Test Cases
+* Input Length Categories:
+
+  * S (Short)
+  * M (Medium)
+  * L (Long)
+
+Each test case includes:
+
+* Singlish Input
+* Expected Sinhala Output
+* Input Type Classification
+* Rationale / Evidence
+
+---
+
+## 📌 Covered Scenarios
+
+The following Singlish input types were tested:
+
+* Question Forms
+* Command Forms
+* Greetings
+* Requests & Responses
+* Repeated Words
+* Punctuation Usage
+* Spelling Variations
+* English Word Insertions
+* Digital / Technical Terms
+* App & Platform Names
+* Numbers & Currency
+* Time & Date Formats
+* Measurements
+* Slang & Casual Language
+* Online Identifiers (URLs, Emails)
+* Emojis
+* Mixed Complex Sentences
+
+---
+
+## ⚠️ Important Notes
+
+* All test cases are uniquely created to avoid plagiarism
+* Long and complex inputs are included to test system limitations
+* The system struggles with:
+
+  * Mixed English + Sinhala inputs
+  * Slang and informal phrases
+  * Special characters and emojis
+
+---
+
+## 👨‍🎓 Student Information
+
+* Name: Dhanoda
+* Registration Number: IT23842694
+* Module: IT3040 – ITPM
+* Year: Year 3 Semester 1
+
+---
+
+## ✅ Final Status
+
+* Automation Script: Completed
+* Test Cases: Completed (50 Negative Cases)
+* Execution: Successfully Completed
+* Results: Recorded in Excel
+
+---
+
+## 📤 Submission Notes
+
+* All required files are included:
+
+  * Excel File
+  * Playwright Script
+  * README.md
+* Files are renamed using registration number
+* Project folder is compressed and submitted as a ZIP file
+* GitHub repository is publicly accessible
+
+---
+
+⭐ End of Assignment ⭐
